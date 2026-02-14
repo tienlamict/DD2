@@ -19,7 +19,7 @@ sub_stat,resistance,bleed,0.6,
 sub_stat,resistance,burn,0.6,
 sub_stat,resistance,disease,0.7,
 sub_stat,resistance,move,0.7,
-sub_stat,resistance,debuff,0.8,
+sub_stat,resistance,debuff,0.9,
 element_end
 element_start,leper,ActorDataClass
 m_Tags,hero,wanderer,hard_target,ally,
@@ -53,7 +53,7 @@ sub_stat,resistance,bleed,0.6,
 sub_stat,resistance,burn,0.6,
 sub_stat,resistance,disease,0.7,
 sub_stat,resistance,move,0.7,
-sub_stat,resistance,debuff,0.8,
+sub_stat,resistance,debuff,0.9,
 sub_stat,resistance,death,0.7,
 sub_stat,route_choice_preference,Bridge,1,
 sub_stat,route_choice_preference,Cache,1,
@@ -455,7 +455,7 @@ element_end
 element_start,lep_reflection,ActorDataSkill
 m_IsFriendly,True,
 m_IsFriendlySelfTargetValid,True,
-launch_ranks,1,2,
+launch_ranks,1,2,3,4
 m_IsMultiHit,False,
 m_Cooldown,1,
 m_AnyConditionIds,target_has_stress_hidden,performer_has_blind_hidden,performer_has_weak_hidden,performer_has_vulnerable_hidden,performer_is_combo_primed_hidden,
@@ -465,13 +465,13 @@ m_Tags,stress_heal,lep_reflection,
 m_IsStallInvalidating,False,
 element_end
 element_start,lep_reflection,ActorDataEffects
-performer_effects,stress_heal_1,
+performer_effects,stress_heal_2,
 performer_after_target_effects,remove_all_blind,remove_all_weak,remove_all_vulnerable,remove_all_combo_visible,
 element_end
 element_start,lep_reflection_u,ActorDataSkill
 m_IsFriendly,True,
 m_IsFriendlySelfTargetValid,True,
-launch_ranks,1,2,
+launch_ranks,1,2,3,4
 m_IsMultiHit,False,
 m_Cooldown,1,
 m_AnyConditionIds,target_has_stress_hidden,performer_has_blind_hidden,performer_has_weak_hidden,performer_has_vulnerable_hidden,performer_is_combo_primed_hidden,
@@ -484,7 +484,7 @@ m_IsStallInvalidating,False,
 m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,lep_reflection_u,ActorDataEffects
-performer_apply_limit_effects,stress_heal_1,
+performer_apply_limit_effects,stress_heal_2,
 performer_apply_limit,1,
 performer_effects,lep_reflection_u_weak,lep_reflection_u_blind,lep_reflection_u_vulnerable,lep_reflection_u_combo,
 performer_after_target_effects,remove_all_blind,remove_all_weak,remove_all_vulnerable,remove_all_combo_visible,
@@ -1254,7 +1254,7 @@ m_CostId,hero_skill_upgrade,
 element_end
 element_start,lep_reflection_p3,ActorDataSkill
 m_IsFriendly,True,
-launch_ranks,1,2,3,
+launch_ranks,1,2,3,4
 m_TargetRelativeRanks,-1,1,
 m_IsMultiHit,False,
 m_Cooldown,2,
@@ -1273,7 +1273,7 @@ actor_effect_triggers,lep_reflection_p3_copy_aet,
 element_end
 element_start,lep_reflection_p3_u,ActorDataSkill
 m_IsFriendly,True,
-launch_ranks,1,2,3,
+launch_ranks,1,2,3,4
 m_TargetRelativeRanks,-1,1,
 m_IsMultiHit,False,
 m_Cooldown,1,
