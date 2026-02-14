@@ -1,7 +1,7 @@
 element_start,quest_rumour_of_riches,Item
 m_type,currency,
 m_tags,cru_quest,
-m_maxQty,999,
+m_maxQty,1,
 m_combinable,True,
 sub_type,cru_quest_currency,
 m_usedInCombat,False,
@@ -15,7 +15,7 @@ element_end
 element_start,ear_necklace,Item
 m_type,combat,
 m_tags,reusable,
-m_maxQty,999,
+m_maxQty,1,
 m_DiscardGameScorePerQty,1,
 m_combinable,True,
 m_possessionLimit,1,
@@ -33,7 +33,7 @@ element_end
 element_start,quest_tattered_banner,Item
 m_type,combat,
 m_tags,cru_quest,
-m_maxQty,999,
+m_maxQty,1,
 m_DiscardGameScorePerQty,1,
 m_combinable,True,
 m_usedInCombat,True,
@@ -51,7 +51,7 @@ m_ItemQty,100,
 element_end
 element_start,unique_reliquary,Item
 m_type,rest,
-m_maxQty,999,
+m_maxQty,1,
 m_DiscardGameScorePerQty,1,
 m_combinable,False,
 sub_type,hero,
@@ -72,7 +72,7 @@ m_ItemQty,32,
 element_end
 element_start,blade_oil,Item
 m_type,rest,
-m_maxQty,999,
+m_maxQty,1,
 m_DiscardGameScorePerQty,1,
 m_combinable,False,
 sub_type,hero,
@@ -93,7 +93,7 @@ element_end
 element_start,quest_unique_reliquary,Item
 m_type,currency,
 m_tags,cru_quest,
-m_maxQty,999,
+m_maxQty,1,
 m_combinable,False,
 sub_type,deliverable,
 m_possessionLimit,1,
@@ -108,7 +108,7 @@ element_end
 element_start,quest_blessed_blade,Item
 m_type,currency,
 m_tags,cru_quest,
-m_maxQty,999,
+m_maxQty,1,
 m_combinable,False,
 sub_type,deliverable,
 m_possessionLimit,1,
