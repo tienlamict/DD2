@@ -237,7 +237,7 @@ m_CostId,hero_skill_upgrade,
 element_end
 element_start,pd_incision,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,1,2,3,
+launch_ranks,1,2,3,4
 target_ranks,1,2,
 m_IsMultiHit,False,
 m_CanBeRiposted,True,
@@ -249,14 +249,14 @@ m_IsStallInvalidating,True,
 element_end
 element_start,pd_incision,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,3,3,0.1,
+add_stats,3,7,0.4,
 element_end
 element_start,pd_incision,ActorDataEffects
 target_effects,skill_dot_medium_bleed,end_combo,
 element_end
 element_start,pd_incision_u,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,1,2,3,
+launch_ranks,1,2,3,4
 target_ranks,1,2,
 m_IsMultiHit,False,
 m_CanBeRiposted,True,
@@ -272,7 +272,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,pd_incision_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,4,3,0.15,
+add_stats,4,7,0.45,
 element_end
 element_start,pd_incision_u,ActorDataEffects
 target_effects,skill_dot_large_bleed,end_combo,
@@ -831,7 +831,7 @@ m_CostId,hero_skill_upgrade,
 element_end
 element_start,pd_incision_p1,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,1,2,3,
+launch_ranks,1,2,3,4
 target_ranks,1,2,
 m_IsMultiHit,False,
 m_CanBeRiposted,True,
@@ -845,7 +845,7 @@ m_IsStallInvalidating,True,
 element_end
 element_start,pd_incision_p1,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,3,3,0.1,
+add_stats,3,7,0.4,
 element_end
 element_start,pd_incision_p1,ActorDataEffects
 target_effects,skill_dot_small_bleed,end_combo,
@@ -853,7 +853,7 @@ performer_per_target_effects,pd_incision_p1_bleed_buff_e,
 element_end
 element_start,pd_incision_p1_u,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,1,2,3,
+launch_ranks,1,2,3,4
 target_ranks,1,2,
 m_IsMultiHit,False,
 m_CanBeRiposted,True,
@@ -868,7 +868,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,pd_incision_p1_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,4,3,0.15,
+add_stats,4,7,0.45,
 element_end
 element_start,pd_incision_p1_u,ActorDataEffects
 target_effects,skill_dot_medium_bleed,end_combo,
@@ -1307,7 +1307,7 @@ m_CostId,hero_skill_upgrade,
 element_end
 element_start,pd_incision_p3,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,1,2,3,
+launch_ranks,1,2,3,4
 target_ranks,1,2,
 m_IsMultiHit,False,
 m_CanBeRiposted,True,
@@ -1320,7 +1320,7 @@ m_IsStallInvalidating,True,
 element_end
 element_start,pd_incision_p3,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,3,3,0.1,
+add_stats,3,7,0.4,
 element_end
 element_start,pd_incision_p3,ActorDataEffects
 target_effects,skill_dot_medium_bleed,
@@ -1329,7 +1329,7 @@ target_apply_limit,1,
 element_end
 element_start,pd_incision_p3_u,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,1,2,3,
+launch_ranks,1,2,3,4
 target_ranks,1,2,
 m_IsMultiHit,False,
 m_CanBeRiposted,True,
@@ -1343,7 +1343,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,pd_incision_p3_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,4,3,0.15,
+add_stats,4,7,0.45,
 element_end
 element_start,pd_incision_p3_u,ActorDataEffects
 target_effects,skill_dot_large_bleed,
