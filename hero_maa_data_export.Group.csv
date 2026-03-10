@@ -150,7 +150,7 @@ m_IsStallInvalidating,True,
 element_end
 element_start,maa_rampart,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,3,2,0.05,
+add_stats,6,2,0.35,
 element_end
 element_start,maa_rampart,ActorDataEffects
 target_effects,move_knockback_1,add_1_daze,
@@ -172,7 +172,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,maa_rampart_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,4,2,0.05,
+add_stats,7,2,0.45,
 element_end
 element_start,maa_rampart_u,ActorDataEffects
 target_effects,move_knockback_1,combo_add_1_stun,add_1_daze,end_combo,
@@ -233,7 +233,7 @@ m_IsFriendly,True,
 m_IsFriendlySelfTargetValid,False,
 launch_ranks,1,2,3,4,
 target_ranks,1,2,3,4,
-m_IsMultiHit,False,
+m_IsMultiHit,True,
 m_Cooldown,1,
 m_AllConditionIds,target_is_not_corpse_hidden,
 m_AverageRankIgnored,False,
@@ -250,7 +250,7 @@ m_IsFriendly,True,
 m_IsFriendlySelfTargetValid,False,
 launch_ranks,1,2,3,4,
 target_ranks,1,2,3,4,
-m_IsMultiHit,False,
+m_IsMultiHit,True,
 m_Cooldown,1,
 m_AllConditionIds,target_is_not_corpse_hidden,
 m_AverageRankIgnored,False,
@@ -851,7 +851,7 @@ m_IsStallInvalidating,True,
 element_end
 element_start,maa_rampart_p2,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,3,2,0.05,
+add_stats,6,2,0.35,
 element_end
 element_start,maa_rampart_p2,ActorDataEffects
 target_effects,move_knockback_1,maa_bulwark_block_immobilize,
@@ -875,7 +875,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,maa_rampart_p2_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,4,2,0.1,
+add_stats,7,2,0.45,
 element_end
 element_start,maa_rampart_p2_u,ActorDataEffects
 target_effects,move_knockback_2,maa_bulwark_block_immobilize,
