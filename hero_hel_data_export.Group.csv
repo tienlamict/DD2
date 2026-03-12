@@ -280,7 +280,7 @@ m_CostId,hero_skill_upgrade,
 element_end
 element_start,hel_breakthrough,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,2,3,4,
+launch_ranks,1,2,3,4,
 target_ranks,1,2,3,
 m_IsMultiHit,True,
 m_CanBeRiposted,True,
@@ -292,7 +292,7 @@ m_ProfileUnlockId,herostory_HEL_04,
 element_end
 element_start,hel_breakthrough,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,3,3,0.05,
+add_stats,3,3,0.35,
 element_end
 element_start,hel_breakthrough,ActorDataEffects
 on_hit_as_performer_to_performer_effects,add_1_winded_per_target,do_nothing_winded_mouseover,
@@ -300,7 +300,7 @@ performer_effects,move_forward_1,
 element_end
 element_start,hel_breakthrough_u,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,2,3,4,
+launch_ranks,1,2,3,4,
 target_ranks,1,2,3,
 m_IsMultiHit,True,
 m_CanBeRiposted,True,
@@ -314,7 +314,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,hel_breakthrough_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,4,4,0.1,
+add_stats,7,4,0.4,
 element_end
 element_start,hel_breakthrough_u,ActorDataEffects
 on_hit_as_performer_to_performer_effects,add_1_winded_per_target,do_nothing_winded_mouseover,
@@ -516,7 +516,6 @@ launch_ranks,1,2,
 target_ranks,1,2,
 m_IsMultiHit,False,
 m_Cooldown,2,
-m_AllConditionIds,performer_has_3_winded,
 m_CanBeRiposted,True,
 m_AverageRankIgnored,False,
 m_ValidActOutTypes,skill_before,skill_after,skill_additional,
@@ -527,7 +526,7 @@ m_ProfileUnlockId,herostory_HEL_05,
 element_end
 element_start,hel_howling_end,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,8,6,0.1,
+add_stats,8,6,0.4,
 element_end
 element_start,hel_howling_end_u,ActorDataSkill
 m_IsFriendly,False,
@@ -535,7 +534,6 @@ launch_ranks,1,2,
 target_ranks,1,2,
 m_IsMultiHit,False,
 m_Cooldown,2,
-m_AllConditionIds,performer_has_3_winded,
 m_CanBeRiposted,True,
 m_AverageRankIgnored,False,
 m_ValidActOutTypes,skill_before,skill_after,skill_additional,
@@ -548,7 +546,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,hel_howling_end_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,10,8,0.15,
+add_stats,10,8,0.45,
 element_end
 element_start,hel_howling_end_u,ActorDataEffects
 target_effects,ignored_token_remove_1_block_plus,ignored_token_remove_1_block,
@@ -839,7 +837,7 @@ m_CostId,hero_skill_upgrade,
 element_end
 element_start,hel_breakthrough_p1,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,2,3,4,
+launch_ranks,1,2,3,4,
 target_ranks,3,4,
 m_IsMultiHit,True,
 m_AllConditionIds,performer_health_under_50pct,
@@ -854,14 +852,14 @@ m_IsStallInvalidating,True,
 element_end
 element_start,hel_breakthrough_p1,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,3,4,0.05,
+add_stats,6,4,0.35,
 element_end
 element_start,hel_breakthrough_p1,ActorDataEffects
 performer_effects,add_1_winded_p1,move_forward_1,
 element_end
 element_start,hel_breakthrough_p1_u,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,2,3,4,
+launch_ranks,1,2,3,4,
 target_ranks,3,4,
 m_IsMultiHit,True,
 m_AllConditionIds,performer_health_under_50pct,
@@ -877,7 +875,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,hel_breakthrough_p1_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,4,5,0.1,
+add_stats,7,5,0.4,
 element_end
 element_start,hel_breakthrough_p1_u,ActorDataEffects
 performer_effects,add_1_winded_p1,move_forward_1,
@@ -903,7 +901,7 @@ m_IsStallInvalidating,True,
 element_end
 element_start,hel_howling_end_p1,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,8,4,0.1,
+add_stats,8,4,0.4,
 element_end
 element_start,hel_howling_end_p1,ActorDataEffects
 performer_effects,add_1_winded_p1,
@@ -926,7 +924,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,hel_howling_end_p1_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,10,4,0.15,
+add_stats,10,4,0.45,
 element_end
 element_start,hel_howling_end_p1_u,ActorDataEffects
 performer_effects,add_1_winded_p1,
@@ -1130,7 +1128,7 @@ m_CostId,hero_skill_upgrade,
 element_end
 element_start,hel_breakthrough_p2,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,2,3,4,
+launch_ranks,1,2,3,4,
 target_ranks,1,2,
 m_IsMultiHit,True,
 m_CanBeRiposted,True,
@@ -1143,7 +1141,7 @@ m_IsStallInvalidating,True,
 element_end
 element_start,hel_breakthrough_p2,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,3,2,0.05,
+add_stats,6,2,0.35,
 element_end
 element_start,hel_breakthrough_p2,ActorDataEffects
 target_effects,skill_dot_small_bleed,
@@ -1151,7 +1149,7 @@ performer_effects,add_1_winded_p2,move_forward_1,
 element_end
 element_start,hel_breakthrough_p2_u,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,2,3,4,
+launch_ranks,1,2,3,4,
 target_ranks,1,2,
 m_IsMultiHit,True,
 m_CanBeRiposted,True,
@@ -1165,7 +1163,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,hel_breakthrough_p2_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,4,3,0.1,
+add_stats,7,3,0.4,
 element_end
 element_start,hel_breakthrough_p2_u,ActorDataEffects
 target_effects,skill_dot_medium_bleed,
@@ -1195,7 +1193,7 @@ m_IsStallInvalidating,True,
 element_end
 element_start,hel_howling_end_p2,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,4,4,0.05,
+add_stats,4,4,0.35,
 element_end
 element_start,hel_howling_end_p2,ActorDataEffects
 performer_apply_limit_effects,move_backward_1,
@@ -1224,7 +1222,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,hel_howling_end_p2_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,6,6,0.1,
+add_stats,6,6,0.4,
 element_end
 element_start,hel_howling_end_p2_u,ActorDataEffects
 performer_apply_limit_effects,move_backward_1,
@@ -1390,7 +1388,7 @@ m_CostId,hero_skill_upgrade,
 element_end
 element_start,hel_breakthrough_p3,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,2,3,4,
+launch_ranks,1,2,3,4,
 target_ranks,1,2,3,
 m_IsMultiHit,False,
 m_Cooldown,2,
@@ -1405,7 +1403,7 @@ m_IsStallInvalidating,True,
 element_end
 element_start,hel_breakthrough_p3,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,3,3,0.05,
+add_stats,6,3,0.35,
 element_end
 element_start,hel_breakthrough_p3,ActorDataEffects
 target_effects,add_1_winded_p3_enemy,add_2_winded_p3_enemy,
@@ -1414,7 +1412,7 @@ performer_effects,move_forward_1,
 element_end
 element_start,hel_breakthrough_p3_u,ActorDataSkill
 m_IsFriendly,False,
-launch_ranks,2,3,4,
+launch_ranks,1,2,3,4,
 target_ranks,1,2,3,
 m_IsMultiHit,False,
 m_Cooldown,2,
@@ -1430,7 +1428,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,hel_breakthrough_p3_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,4,4,0.1,
+add_stats,7,4,0.4,
 element_end
 element_start,hel_breakthrough_p3_u,ActorDataEffects
 target_effects,add_1_winded_p3_enemy,add_2_winded_p3_enemy,add_3_winded_p3_enemy,
@@ -1446,7 +1444,6 @@ m_IsFriendly,False,
 launch_ranks,1,2,
 target_ranks,1,2,
 m_IsMultiHit,False,
-m_AllConditionIds,performer_has_3_winded,
 m_CanBeRiposted,True,
 m_AverageRankIgnored,False,
 m_ValidActOutTypes,skill_before,skill_after,skill_additional,
@@ -1458,7 +1455,7 @@ m_IsStallInvalidating,True,
 element_end
 element_start,hel_howling_end_p3,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,8,6,0.1,
+add_stats,8,6,0.4,
 element_end
 element_start,hel_howling_end_p3,ActorDataEffects
 performer_after_target_effects,remove_all_winded,
@@ -1468,7 +1465,6 @@ m_IsFriendly,False,
 launch_ranks,1,2,
 target_ranks,1,2,
 m_IsMultiHit,False,
-m_AllConditionIds,performer_has_3_winded,
 m_CanBeRiposted,True,
 m_AverageRankIgnored,False,
 m_ValidActOutTypes,skill_before,skill_after,skill_additional,
@@ -1481,7 +1477,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,hel_howling_end_p3_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,10,8,0.15,
+add_stats,10,8,0.45,
 element_end
 element_start,hel_howling_end_p3_u,ActorDataEffects
 performer_effects,convert_all_block_to_block_plus,
