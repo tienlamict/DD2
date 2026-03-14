@@ -297,6 +297,7 @@ element_end
 element_start,hel_breakthrough,ActorDataEffects
 on_hit_as_performer_to_performer_effects,add_1_winded_per_target,do_nothing_winded_mouseover,
 performer_effects,move_forward_1,
+target_effects,skill_dot_massive_bleed,
 element_end
 element_start,hel_breakthrough_u,ActorDataSkill
 m_IsFriendly,False,
@@ -320,6 +321,7 @@ element_start,hel_breakthrough_u,ActorDataEffects
 on_hit_as_performer_to_performer_effects,add_1_winded_per_target,do_nothing_winded_mouseover,
 on_crit_as_performer_to_target_effects,prime_combo,
 performer_effects,move_forward_1,
+target_effects,skill_dot_massive_bleed,
 element_end
 element_start,hel_breakthrough_u,Unlock
 m_RequirementIds,hel_breakthrough,
@@ -856,6 +858,7 @@ add_stats,6,4,0.35,
 element_end
 element_start,hel_breakthrough_p1,ActorDataEffects
 performer_effects,add_1_winded_p1,move_forward_1,
+target_effects,skill_dot_massive_bleed,
 element_end
 element_start,hel_breakthrough_p1_u,ActorDataSkill
 m_IsFriendly,False,
@@ -879,6 +882,7 @@ add_stats,7,5,0.4,
 element_end
 element_start,hel_breakthrough_p1_u,ActorDataEffects
 performer_effects,add_1_winded_p1,move_forward_1,
+target_effects,skill_dot_massive_bleed,
 element_end
 element_start,hel_breakthrough_p1_u,Unlock
 m_RequirementIds,hel_breakthrough_p1,
@@ -1146,6 +1150,7 @@ element_end
 element_start,hel_breakthrough_p2,ActorDataEffects
 target_effects,skill_dot_small_bleed,
 performer_effects,add_1_winded_p2,move_forward_1,
+target_effects,skill_dot_massive_bleed,
 element_end
 element_start,hel_breakthrough_p2_u,ActorDataSkill
 m_IsFriendly,False,
@@ -1168,6 +1173,7 @@ element_end
 element_start,hel_breakthrough_p2_u,ActorDataEffects
 target_effects,skill_dot_medium_bleed,
 performer_effects,add_1_winded_p2,move_forward_1,
+target_effects,skill_dot_massive_bleed,
 element_end
 element_start,hel_breakthrough_p2_u,Unlock
 m_RequirementIds,hel_breakthrough_p2,
@@ -1390,7 +1396,7 @@ element_start,hel_breakthrough_p3,ActorDataSkill
 m_IsFriendly,False,
 launch_ranks,1,2,3,4,
 target_ranks,1,2,3,
-m_IsMultiHit,False,
+m_IsMultiHit,True,
 m_Cooldown,2,
 m_CanBeRiposted,True,
 m_AverageRankIgnored,False,
@@ -1414,7 +1420,7 @@ element_start,hel_breakthrough_p3_u,ActorDataSkill
 m_IsFriendly,False,
 launch_ranks,1,2,3,4,
 target_ranks,1,2,3,
-m_IsMultiHit,False,
+m_IsMultiHit,True,
 m_Cooldown,2,
 m_CanBeRiposted,True,
 m_AverageRankIgnored,False,
