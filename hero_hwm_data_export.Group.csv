@@ -107,7 +107,7 @@ m_IsStallInvalidating,True,
 element_end
 element_start,hwm_wicked_slice,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,4,4,0.15,
+add_stats,7,4,0.45,
 element_end
 element_start,hwm_wicked_slice_u,ActorDataSkill
 m_IsFriendly,False,
@@ -127,7 +127,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,hwm_wicked_slice_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,6,3,0.2,
+add_stats,9,3,0.5,
 element_end
 element_start,hwm_wicked_slice_u,Unlock
 m_RequirementIds,hwm_wicked_slice,
@@ -323,10 +323,11 @@ m_IsStallInvalidating,True,
 element_end
 element_start,hwm_duelists_advance,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,6,2,0.35,
+add_stats,6,2,0.4,
 element_end
 element_start,hwm_duelists_advance,ActorDataEffects
 performer_effects,add_2_riposte,move_forward_1,
+target_effects,skill_dot_medium_bleed,
 element_end
 element_start,hwm_duelists_advance_u,ActorDataSkill
 m_IsFriendly,False,
@@ -344,10 +345,11 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,hwm_duelists_advance_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,7,2,0.4,
+add_stats,7,2,0.45,
 element_end
 element_start,hwm_duelists_advance_u,ActorDataEffects
 performer_effects,add_3_riposte,add_1_dodge,move_forward_1,
+target_effects,skill_dot_medium_bleed,
 element_end
 element_start,hwm_duelists_advance_u,Unlock
 m_RequirementIds,hwm_duelists_advance,
@@ -646,7 +648,7 @@ m_IsStallInvalidating,True,
 element_end
 element_start,hwm_wicked_slice_p1,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,4,4,0.15,
+add_stats,7,4,0.45,
 element_end
 element_start,hwm_wicked_slice_p1_u,ActorDataSkill
 m_IsFriendly,False,
@@ -666,7 +668,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,hwm_wicked_slice_p1_u,ActorDataStats
 key_map,health_damage,health_damage_range,crit_chance,
-add_stats,6,3,0.2,
+add_stats,9,3,0.5,
 element_end
 element_start,hwm_wicked_slice_p1_u,Unlock
 m_RequirementIds,hwm_wicked_slice_p1,
@@ -783,6 +785,7 @@ add_stats,6,2,0.35,
 element_end
 element_start,hwm_duelists_advance_p1,ActorDataEffects
 performer_effects,add_2_riposte,add_1_block,move_forward_2,
+target_effects,skill_dot_medium_bleed,
 element_end
 element_start,hwm_duelists_advance_p1_u,ActorDataSkill
 m_IsFriendly,False,
@@ -804,6 +807,7 @@ add_stats,7,2,0.4,
 element_end
 element_start,hwm_duelists_advance_p1_u,ActorDataEffects
 performer_effects,add_2_riposte,add_1_block_plus,move_forward_2,
+target_effects,skill_dot_medium_bleed,
 element_end
 element_start,hwm_duelists_advance_p1_u,Unlock
 m_RequirementIds,hwm_duelists_advance_p1,

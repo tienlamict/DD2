@@ -199,7 +199,7 @@ key_map,health_damage,health_damage_range,crit_chance,
 add_stats,10,3,0.4,
 element_end
 element_start,cru_holy_lance,ActorDataEffects
-target_effects,skill_dot_small_burn,
+target_effects,skill_dot_medium_burn,
 performer_effects,add_2_block,
 element_end
 element_start,cru_holy_lance_u,ActorDataSkill
@@ -244,7 +244,7 @@ key_map,health_damage,health_damage_range,crit_chance,
 add_stats,1,1,0.05,
 element_end
 element_start,cru_zealous_accusation,ActorDataEffects
-target_effects,skill_dot_small_burn,prime_combo_25pct,
+target_effects,skill_dot_medium_burn,prime_combo_25pct,
 element_end
 element_start,cru_zealous_accusation_u,ActorDataSkill
 m_IsFriendly,False,
@@ -862,7 +862,7 @@ key_map,health_damage,health_damage_range,crit_chance,
 add_stats,1,1,0.05,
 element_end
 element_start,cru_zealous_accusation_p3,ActorDataEffects
-target_effects,skill_dot_small_burn,prime_combo_25pct,
+target_effects,skill_dot_medium_burn,prime_combo_25pct,
 element_end
 element_start,cru_zealous_accusation_p3_u,ActorDataSkill
 m_IsFriendly,False,
@@ -895,9 +895,9 @@ m_IsFriendlySelfTargetValid,True,
 launch_ranks,1,2,3,4,
 target_ranks,1,2,3,4,
 m_IsMultiHit,False,
-m_Limit,4,
-m_Cooldown,2,
-m_AllConditionIds,target_meets_heal_threshold_high,target_is_not_corpse_hidden,
+m_Limit,7,
+m_Cooldown,1,
+m_AllConditionIds,target_is_not_corpse_hidden,
 m_AverageRankIgnored,False,
 m_ValidActOutTypes,skill_before,skill_after,skill_block,
 m_Tags,heal,cru_battle_heal,
@@ -906,7 +906,7 @@ m_SkillHistoryIdOverride,cru_battle_heal,
 m_IsStallInvalidating,False,
 element_end
 element_start,cru_battle_heal_p3,ActorDataEffects
-target_effects,heal_20pct,
+target_effects,heal_30pct,
 element_end
 element_start,cru_battle_heal_p3_u,ActorDataSkill
 m_IsFriendly,True,
@@ -914,9 +914,9 @@ m_IsFriendlySelfTargetValid,True,
 launch_ranks,1,2,3,4,
 target_ranks,1,2,3,4,
 m_IsMultiHit,False,
-m_Limit,4,
+m_Limit,7,
 m_Cooldown,1,
-m_AllConditionIds,target_meets_heal_threshold_high,target_is_not_corpse_hidden,
+m_AllConditionIds,target_is_not_corpse_hidden,
 m_AverageRankIgnored,False,
 m_ValidActOutTypes,skill_before,skill_after,skill_block,
 m_Tags,heal,cru_battle_heal,
@@ -926,7 +926,7 @@ m_IsStallInvalidating,False,
 m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,cru_battle_heal_p3_u,ActorDataEffects
-target_effects,heal_30pct,
+target_effects,heal_40pct,
 element_end
 element_start,cru_battle_heal_p3_u,Unlock
 m_RequirementIds,cru_battle_heal_p3,
