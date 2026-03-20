@@ -347,7 +347,7 @@ m_ProfileUnlockId,herostory_ABM_03,
 element_end
 element_start,abm_spit,ActorDataStats
 key_map,crit_chance,
-add_stats,0.05,
+add_stats,0.45,
 element_end
 element_start,abm_spit,ActorDataEffects
 target_effects,end_combo,
@@ -372,7 +372,7 @@ m_SkillModifierChanceModifiers,curse,3,
 element_end
 element_start,abm_spit_u,ActorDataStats
 key_map,crit_chance,
-add_stats,0.1,
+add_stats,0.45,
 element_end
 element_start,abm_spit_u,ActorDataEffects
 target_effects,end_combo,

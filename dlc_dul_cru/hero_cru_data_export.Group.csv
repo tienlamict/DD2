@@ -847,7 +847,7 @@ element_end
 element_start,cru_zealous_accusation_p3,ActorDataSkill
 m_IsFriendly,False,
 launch_ranks,3,4,
-target_ranks,3,4,
+target_ranks,1,2,3,4,
 m_IsMultiHit,True,
 m_CanBeRiposted,True,
 m_AverageRankIgnored,False,
@@ -867,7 +867,7 @@ element_end
 element_start,cru_zealous_accusation_p3_u,ActorDataSkill
 m_IsFriendly,False,
 launch_ranks,3,4,
-target_ranks,3,4,
+target_ranks,1,2,3,4,
 m_IsMultiHit,True,
 m_CanBeRiposted,True,
 m_AverageRankIgnored,False,
